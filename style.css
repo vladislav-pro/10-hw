@@ -1,0 +1,103 @@
+body{
+    font-family: Raleway, sans-serif;
+    background-color: #b07cf7;
+    color: #fff;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.heading-title{
+    font-size: 90px;
+    margin-top: 100px;
+}
+.heading-discription{
+    max-width: 563px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 17px;
+    line-height: 27px;
+}
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px
+}
+.item{
+    width: calc(100% / 3);
+    padding: 15px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 15px;
+}
+.img{
+    position: absolute;
+}
+.card-date{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #262626;
+    line-height: 25px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.day{
+    font-weight: 700;
+    font-size: 32px;
+}
+.month{
+    font-size: 21px;
+    font-weight: bold;
+}
+.card-text{
+     margin: 120px 43px 23px 20px;
+     opacity: .9;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.card-author{
+     font-size: 13px;
+}
+.button{
+       
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    background-color: #f72b3b;
+    font-size: 20px;
+    width: 200px;
+    height: 55px;
+    border: 1px solid #f72b3b;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 225px;
+}
+.button:hover{
+    color: #f72b3b;
+    background-color: #fff
+}
